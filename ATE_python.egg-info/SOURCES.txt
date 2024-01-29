@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ATE/Algorithms.py
+ATE/__init__.py
+ATE/main_function.py
+ATE/point_estimates.py
+ATE/variance_estimates.py
+ATE_python.egg-info/PKG-INFO
+ATE_python.egg-info/SOURCES.txt
+ATE_python.egg-info/dependency_links.txt
+ATE_python.egg-info/requires.txt
+ATE_python.egg-info/top_level.txt
