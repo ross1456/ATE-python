@@ -20,5 +20,5 @@ setup(
     url="https://github.com/ross1456/ATE-python.git", 
     license='MIT', 
     python_requires='>=3.8', 
-    install_requires=["numpy","pandas","scipy","matplotlib","warnings"] 
+    install_requires=["numpy","pandas","scipy","matplotlib"] 
 )
