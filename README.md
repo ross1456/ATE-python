@@ -49,7 +49,7 @@ Y = 10 * treat + (2 * treat - 1) * (X[:, 0] - 0.5 * X[:, 1] + 0.25 * X[:, 2] + X
 
 
 #Fit ATE object
-ate1 <- ATE()
+ate1 = ATE()
 ate1.fit(Y, treat, X)
 ate1.summary()
 
