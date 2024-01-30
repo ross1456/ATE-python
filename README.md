@@ -10,12 +10,12 @@ The package also allows inference by consistent variance estimates.
 - `pandas`
 - `scipy`
 - `matplotlib`
-- `warnings`
+
 ## Installation
 
 The package can be installed from pypi:
 ```
-pip install ATE
+pip install ATE-python
 ```
 
 Alternatively, we can directly install from Github:
