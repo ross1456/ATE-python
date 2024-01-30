@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
   
 setup( 
     name="ATE-python", 
-    version="0.0.1", 
+    version="0.0.2", 
     author="Ross", 
     author_email="rosscooper@link.cuhk.edu.hk", 
     packages=find_packages(),
