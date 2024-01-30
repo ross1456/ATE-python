@@ -58,6 +58,15 @@ E[Y(1)]  10.522690    0.106475  10.314003  10.731376  98.827916  0.000000e+00
 E[Y(0)]  -0.640634    0.080557  -0.798523  -0.482746  -7.952586  1.826574e-15
 ATE      11.163324    0.157352  10.854920  11.471728  70.944896  0.000000e+00
 ```
+* `plot` function for demonstrating effect of covariate balancing for continuous and binary 
+covariates.
+```python
+ate1.plot()
+```
+![](README-plot1.png)
+![](README-plot2.png)
+
+
 
 * We can also estimate the average treatment effect on the treated. 
 ```python
