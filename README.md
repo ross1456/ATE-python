@@ -3,8 +3,8 @@
 The main aim of `ATE` is to provide a user-friendly interface for nonparametric efficient inference of average 
 treatment effects for observational data. The package provides point estimates for average treatment 
 effects, average treatment effect on the treated and can also handle the case of multiple treatments.
-The package also allows inference by consistent variance estimates.
-Paper: Globally Efficient Non-Parametric Inference of Average Treatment Effects by Empirical Balancing Calibration Weighting
+The package also allows inference by consistent variance estimates. <br />
+Paper: Globally Efficient Non-Parametric Inference of Average Treatment Effects by Empirical Balancing Calibration Weighting <br />
 Author: Kwun Chuen Gary Chan, Sheung Chi Phillip Yam, Zheng Zhang
 [Source](https://academic.oup.com/jrsssb/article/78/3/673/7040940?login=true)
 
