@@ -106,7 +106,7 @@ ate3.plot()
 * `ATE` We call cpp to help accelerate, this allows us to handle big data efficiently.
 ```python
 
-n = 10000
+n = 100000
 
 X1 = np.random.normal(size=(n, 500))
 X2 = np.random.binomial(1, 0.4, size=(n, 300))
