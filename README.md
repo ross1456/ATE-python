@@ -73,7 +73,7 @@ ate1.plot()
 
 * We can also estimate the average treatment effect on the treated. 
 ```python
-ate2 <- ATE(ATT = TRUE)
+ate2 = ATE(ATT = TRUE)
 ate2.fit(Y, treat,X)
 ate2.summary()
 
@@ -86,7 +86,7 @@ ATE      9.436935    0.188530   9.067422   9.806448  50.055253  0.000000
 * `ATE` automatically detects and estimates the case of multiple treatment arm. 
 ```python
 
-ate3<-ATE()
+ate3 = ATE()
 ate3.fit(Y,treat,X)
 ate3.summary()
 
