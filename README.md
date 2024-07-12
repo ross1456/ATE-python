@@ -101,3 +101,18 @@ ate3.plot()
 ```
 ![](README-plot3.png)
 ![](README-plot4.png)
+
+
+* `ATE` We call cpp to help accelerate, this allows us to handle big data efficiently.
+```python
+
+n = 10000
+
+X1 = np.random.normal(size=(n, 500))
+X2 = np.random.binomial(1, 0.4, size=(n, 300))
+X = np.hstack((X1, X2))
+
+prop = 1 / (1 + np.exp(X[:, 0] - 0.5 * X[:, 1] + 0.25 * X[:, 2] + X[:, 5] + 0.5 * X[:, 7]))
+treat = np.random.binomial(1, prop)
+Y = 10 * treat + (2 * treat - 1) * (X[:, 0] - 0.5 * X[:, 1] + 0.25 * X[:, 2] + X[:, 5] + 0.5 * X[:, 7]) + np.random.normal(size=n)
+fit4 = ate3.fit(Y, treat, X)
